@@ -1,0 +1,16 @@
+<div class="card mb-3 bg-dark text-white" style="max-width: 540px;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="{{ heroe.img }}" class="card-img" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">{{ heroe.name }}</h5>
+          <p class="card-text">{{ heroe.description }}</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <a [routerLink]="['/heroes']" class="btn btn-success">Back to Heroes</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
